@@ -22,6 +22,7 @@ var Point = (function () {
     };
     return Point;
 }());
+// Point3D
 var Point3D = (function (_super) {
     __extends(Point3D, _super);
     function Point3D(x, y, z) {

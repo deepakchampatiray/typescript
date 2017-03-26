@@ -15,6 +15,7 @@ class Point {
   }
 }
 
+// Point3D
 class Point3D extends Point{
   z: number;
 
