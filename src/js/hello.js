@@ -1,6 +1,6 @@
 console.log("Hello World");
 var flag = true;
 flag = false;
-//flag = 'true'
+flag = 'true';
 console.log(typeof flag);
 //# sourceMappingURL=hello.js.map

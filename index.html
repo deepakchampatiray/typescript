@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World from Typescript</title>
+</head>
+<body>
+  <script src="class/point.js"></script>
+
+  <script type="text/javascript">
+    var p2d = new Point('a',0);
+    console.log(p2d.print());
+    var p3d = new Point3D(0,0,0);
+    console.log(p3d.print());
+
+    p2d.move(new Point(5, 10));
+    console.log(p2d.print());
+    p3d.move(new Point3D(10, 15, 20));
+    console.log(p3d.print());
+
+    console.log(p2d.print());
+    console.log(p3d.print());
+  </script>
+
+
+
+</body>
+</html>
